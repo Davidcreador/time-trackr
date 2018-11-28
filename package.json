@@ -1,0 +1,21 @@
+{
+  "name": "timer-tracker",
+  "version": "0.0.1",
+  "description": "track projects, time and etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "timr": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.0",
+    "shelljs": "^0.8.3"
+  }
+}
