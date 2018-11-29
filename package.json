@@ -2,15 +2,27 @@
   "name": "timer-tracker",
   "version": "0.0.1",
   "description": "track projects, time and etc...",
+  "author": "David Pastor",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "preferGlobal": true,
   "bin": {
     "timr": "./bin/index.js"
   },
-  "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Davidcreador/time-trackr"
+  },
+  "keywords": [
+    "cli",
+    "time",
+    "tracker",
+    "time tracker",
+    "projects"
+  ],
   "dependencies": {
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
